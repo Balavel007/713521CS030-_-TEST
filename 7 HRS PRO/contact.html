@@ -23,10 +23,10 @@
             </div>
             <div class="col-12 col-md-6 pt-3 d-flex justify-content-start justify-content-md-end">
                 <ul>
-                    <li class="list-inline-item"><a class="hea" href="/pro.html">HOME</a></li>
-                    <li class="list-inline-item"><a class="hea" href="/service.html">SERVICE</a></li>
-                    <li class="list-inline-item"><a class="hea" href="/contact.html">CONTACT</a></li>
-                    <li class="list-inline-item"><a class="hea" href="/login.html" onclick="logout()">LOGOUT</a></li>
+                    <li class="list-inline-item"><a class="hea fw-bold" href="/pro.html">HOME</a></li>
+                    <li class="list-inline-item"><a class="hea fw-bold" href="/service.html">SERVICE</a></li>
+                    <li class="list-inline-item"><a class="hea fw-bold" href="/contact.html">CONTACT</a></li>
+                    <li class="list-inline-item"><a class="hea fw-bold" href="/login.html" onclick="logout()">LOGOUT</a></li>
                 </ul>
             </div>
         </div>
@@ -34,32 +34,20 @@
 
   <!-- body content -->
 
+  <marquee behavior="" direction="" scrollamount="20" onmouseover="this.stop()" onmouseout="this.start()">
+    <div class="row mt-5 mb-5  ">
+        <ul>
+            <li id="sli" class="list-inline-item fw-bold text-success">SNSCT :: SNSCE :::</li>
+            <li id="sli" class="list-inline-item fw-bold text-dark">SNS Kalvi Nagar, Sathy Main Road, NH-209, Vazhiyampalayam, Saravanampatti, Coimbatore, Tamil Nadu 641035 !</li>
+            <li id="sli" class="list-inline-item fw-bold text-success">SNS ARTS ::</li>
+            <li id="sli" class="list-inline-item fw-bold text-dark">486 Thudiyalur - Saravanampatti Road, Post, Chinnavedampatti, Coimbatore, Tamil Nadu 641049 !</li>
+           
+  
+        </ul>
+    </div>
+</marquee>
 
-        <div class="div ">
-        <marquee onmouseover="this.stop()" onmouseout="this.start()" scrollamount="10">
-            <header class="scr ">
-                <ul type="none" >
-                    
-                    <li class="list-inline-item" style="color: green;">100 % PLACEMENT !</li>
-                    <li class="list-inline-ite" style="color: blue;">ADMISSION OPEN !</li>
-                    <li class="list-inline-item" style="color: red;">DAPRTMENT AVILABLE FOR ADMISSION !</li>
-                    <li class="list-inline-item" style="color: aqua;">CSE,IT,MECH,ECE,FT,AERO,AIML !</li>
-                    <li class="list-inline-item" style="color: white;">LIMITED SEATS !</li>
-                    <li class="list-inline-item" style="color: green;">100 % PLACEMENT !</li>
-                    <li class="list-inline-ite" style="color: blue;">ADMISSION OPEN !</li>
-                    <li class="list-inline-item" style="color: red;">DAPRTMENT AVILABLE FOR ADMISSION !</li>
-                    <li class="list-inline-item" style="color: aqua;">CSE,IT,MECH,ECE,FT,AERO,AIML !</li>
-                    <li class="list-inline-item" style="color: white;">LIMITED SEATS !</li>
-                    <li class="list-inline-item" style="color: green;">100 % PLACEMENT !</li>
-                    <li class="list-inline-ite" style="color: blue;">ADMISSION OPEN !</li>
-                    <li class="list-inline-item" style="color: red;">DAPRTMENT AVILABLE FOR ADMISSION !</li>
-                    <li class="list-inline-item" style="color: aqua;">CSE,IT,MECH,ECE,FT,AERO,AIML !</li>
-                    <li class="list-inline-item" style="color: white;">LIMITED SEATS !</li>
-                </ul>
-            </header>
-        </marquee>
-    </div> 
-
+       
     <div class="container rounded-5 p-5 bg-white col-12 ">
     <div class="row">
         <h2 class="text-decoration-underline fw-bold">Contact Form</h2>
@@ -76,7 +64,7 @@
             <label for="text">MESSAGE</label>
             <textarea name="" id="" class="form-control border-2 border-dark mb-3 p-5" cols="30"></textarea>
            </div>
-            <button type="submit" class=" border-5 border-success mt-5 btn btn-primary ">SUBMIT</button>
+            <button type="submit" class=" border-5 border-success mt-5 btn btn-primary " onclick="con()">SUBMIT</button>
         </form>
     </div>
     

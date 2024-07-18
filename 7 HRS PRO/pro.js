@@ -8,3 +8,9 @@ function sign(){
 function logout(){
     window.alert(" THANK YOU FOR COMING ! ");
 }
+function admis(){
+    window.alert("RESPONSE SUBMITTED");
+}
+function con(){
+    window.alert("RESPONSE added");
+}
